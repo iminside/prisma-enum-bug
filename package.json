@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "graphql": "^14.0.2",
+        "graphql-tools": "^3.1.1",
+        "prisma-client-lib": "^1.17.0-beta.30"
+    },
+    "devDependencies": {
+        "ts-node": "^7.0.1",
+        "typescript": "^3.0.3"
+    },
+    "scripts": {
+        "bug": "ts-node ./main.ts"
+    }
+}

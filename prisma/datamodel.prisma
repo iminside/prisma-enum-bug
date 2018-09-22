@@ -1,0 +1,10 @@
+enum Gender {
+    MALE
+    FEMALE
+}
+
+type User {
+    id: ID! @unique
+    name: String!
+    gender: Gender!
+}
